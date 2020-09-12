@@ -4,25 +4,27 @@ int square(int n)
 {
 	for(int i=1; i<=n; i++)
 	{
-		cout<<"\t";
+		cout << "\t";
 		if(i==1 || i==n)
 		{
 			for(int k=1; k<=n; k++)
-			cout<<"* ";	
+			cout << "* ";	
 		}
 		else
 		{
-			cout<<"*";
+			cout << "*";
 			for(int l=1; l<=(n-2); l++)
-			cout<<"  ";
-			cout<<" *";
+				cout << "  ";
+			cout << " *";
 		}
-		cout<<endl;
+		cout << "\n";
 	}
 }
+
 int main()
 {
 	int n;
-	cout<<"Enter the length of the side(square):";cin>>n;
+	cout << "Enter the length of the side(square): ";
+	cin >> n;
 	square (n);
 }
