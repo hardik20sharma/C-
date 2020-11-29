@@ -9,7 +9,7 @@ int jump_search(vector<int> vec, int element)
     {
         prev = step;
         step += sqrt(n);
-    
+   
         if(n <= prev)
             return -1;
     }
