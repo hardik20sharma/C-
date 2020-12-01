@@ -4,7 +4,7 @@ using namespace std;
 int linear_search(vector<int> vec, int element)
 {
     for(int i=0; i<vec.size(); i++)
-        if(vec[i]==element)
+        if(vec[i] == element)
             return i;
     return -1;
 }
